@@ -4,7 +4,9 @@
   "private": true,
   "exports": {
     "./*": "./src/*.tsx",
-    "./chakra-provider": "./src/chakra-provider.tsx"
+    "./chakra-provider": "./src/chakra-provider.tsx",
+    "./header": "./src/header.tsx",
+    "./drawer": "./src/drawer.tsx"
   },
   "scripts": {
     "generate:component": "turbo gen react-component",

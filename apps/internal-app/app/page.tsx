@@ -1,3 +1,3 @@
 export default function Home() {
-  return "Internal App HomePage"
+  return "Internal App HomePage";
 }

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ChakraProvider } from "@repo/ui/chakra-provider";
+import { Header } from "@repo/ui/header";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -24,7 +26,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <ChakraProvider>
+          <Header>Header</Header>
+          {children}
+        </ChakraProvider>
+      </body>
     </html>
   );
 }

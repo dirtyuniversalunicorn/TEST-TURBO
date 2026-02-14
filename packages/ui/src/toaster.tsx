@@ -1,11 +1,7 @@
 import { Portal } from "@chakra-ui/react/portal";
 import { Spinner } from "@chakra-ui/react/spinner";
 import { Stack } from "@chakra-ui/react/stack";
-import {
-  Toaster as ChakraToaster,
-  createToaster,
-  Toast,
-} from "@chakra-ui/react/toast";
+import { Toaster as ChakraToaster, createToaster, Toast } from "@chakra-ui/react/toast";
 
 export const toaster = createToaster({
   placement: "bottom-end",
@@ -25,13 +21,9 @@ export const Toaster = () => {
             )}
             <Stack flex="1" gap="1" maxWidth="100%">
               {toast.title && <Toast.Title>{toast.title}</Toast.Title>}
-              {toast.description && (
-                <Toast.Description>{toast.description}</Toast.Description>
-              )}
+              {toast.description && <Toast.Description>{toast.description}</Toast.Description>}
             </Stack>
-            {toast.action && (
-              <Toast.ActionTrigger>{toast.action.label}</Toast.ActionTrigger>
-            )}
+            {toast.action && <Toast.ActionTrigger>{toast.action.label}</Toast.ActionTrigger>}
             {toast.closable && <Toast.CloseTrigger />}
           </Toast.Root>
         )}
