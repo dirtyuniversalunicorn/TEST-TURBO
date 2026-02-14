@@ -7,7 +7,7 @@ import {
 import {
   ColorModeProvider,
   type ColorModeProviderProps,
-} from "../src/components/ui/color-mode";
+} from "./color-mode";
 
 export function ChakraProvider(props: ColorModeProviderProps) {
   return (
