@@ -21,7 +21,7 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
 
-  apps/client-app:
+  apps/internal-app:
     dependencies:
       '@repo/ui':
         specifier: workspace:*
@@ -52,7 +52,7 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
 
-  apps/internal-app:
+  apps/public-app:
     dependencies:
       '@repo/ui':
         specifier: workspace:*
