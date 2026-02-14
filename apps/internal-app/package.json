@@ -13,6 +13,8 @@
     "check": "biome check ."
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.33.0",
+    "@emotion/react": "^11.14.0",
     "@repo/ui": "workspace:*",
     "next": "16.1.5",
     "react": "^19.2.0",

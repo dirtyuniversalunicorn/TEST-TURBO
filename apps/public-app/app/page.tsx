@@ -1,3 +1,9 @@
+"use client";
+
+import { Button } from "@chakra-ui/react";
+
+
+
 export default function Home() {
-  return "Public App Homepage"
+  return <Button>Hi</Button>;
 }
