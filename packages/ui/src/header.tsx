@@ -1,5 +1,5 @@
 import { Flex, type FlexProps, Image } from "@chakra-ui/react";
-import { Drawer } from "./drawer";
+import { OrderDetail } from "./order-detail";
 
 export const Header = (props: FlexProps) => {
   return (
@@ -10,8 +10,8 @@ export const Header = (props: FlexProps) => {
       backgroundColor="orange"
       {...props}
     >
-      <Image src="https://placehold.co/120x40?text=My+Logo" alt="Dummy logo" />
-      <Drawer />
+      <Image src="https://placehold.co/120x40?text=Logo" alt="Dummy logo" />
+      <OrderDetail />
     </Flex>
   );
 };

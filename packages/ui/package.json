@@ -6,7 +6,7 @@
     "./*": "./src/*.tsx",
     "./chakra-provider": "./src/chakra-provider.tsx",
     "./header": "./src/header.tsx",
-    "./drawer": "./src/drawer.tsx"
+    "./order-detail": "./src/order-detail.tsx"
   },
   "scripts": {
     "generate:component": "turbo gen react-component",
