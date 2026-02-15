@@ -1,0 +1,2 @@
+// If you want the folder structure to exist in the repository (for example in a Next.js, React, or Turborepo project), you add an empty file = .gitkeep
+// git is not trankcing empty folders, but if you add there file, it will start tracking it

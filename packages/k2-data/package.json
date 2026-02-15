@@ -1,0 +1,21 @@
+{
+  "name": "@repo/k2-data",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "k2:generate": "k2 init-data",
+    "check-types": "tsc --noEmit",
+    "k2-api": "git+https://git.k2ol.cz/k2ol/k2-api.git"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*"
+  }
+}
