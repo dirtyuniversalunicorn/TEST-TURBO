@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    "./*": "./src/*.tsx",
-    "./chakra-provider": "./src/chakra-provider.tsx",
-    "./header": "./src/header.tsx",
-    "./order-detail": "./src/order-detail.tsx"
+    "./*": "./src/*.tsx"
   },
   "scripts": {
     "generate:component": "turbo gen react-component",
