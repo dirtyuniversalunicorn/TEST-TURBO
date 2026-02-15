@@ -38,3 +38,7 @@ yarn-error.log*
 *.pem
 .vscode
 
+# generated k2-data SDK
+packages/k2-data/src/**
+!packages/k2-data/src/.gitkeep
+

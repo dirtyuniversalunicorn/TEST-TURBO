@@ -13,6 +13,7 @@
     "check": "biome check ."
   },
   "dependencies": {
+    "@repo/k2-data": "workspace:*",
     "@chakra-ui/react": "^3.33.0",
     "@emotion/react": "^11.14.0",
     "@repo/ui": "workspace:*",
